@@ -1,0 +1,7 @@
+name = "auto-ads"
+main = "index.js"
+compatibility_date = "2023-06-16"
+
+kv_namespaces = [
+  { binding = "DATA", id = "fb6ff673b64541ae87ac93bb6f321e51", preview_id = "3111b8b665b2411dbffb82c75a414e18" }
+]
