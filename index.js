@@ -2,14 +2,8 @@ const riotAPIKey = "";
 const nightbotAccessToken = "";
 const summonerName = "";
 const region = "na1";
-const nightbotClientID = "";
 
 const nightbotEndpoint = `https://api.nightbot.tv/1/channel/send`;
-const nightbotRedirectURI = "https://google.com";
-const nightbotRedirectURLtoURI = encodeURIComponent(nightbotRedirectURI);
-const scope = "channel_send";
-
-const nightbotAuthURL = `https://api.nightbot.tv/oauth2/authorize?client_id=${nightbotClientID}&redirect_uri=${nightbotRedirectURLtoURI}&response_type=code&scope=${scope}`;
 
 async function getSummonerId() {
   try {
